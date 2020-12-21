@@ -6,12 +6,11 @@
 //$dBPassword = "";
 //$dBName = "restaurant";
 
-//Remote Database Connection
- $host = 'remotemysql.com';
- $db = 'kKlKXgGoNl';
- $user = 'kKlKXgGoNl';
- $pass = 'ElhUU5dmnu';
- $charset = 'utf8mb4';
+$servername = "remotemysql.com";
+$dBUsername = "kKlKXgGoNl";
+$dBPassword = "ElhUU5dmnu";
+$dBName = "kKlKXgGoNl";
+
 $conn = mysqli_connect($servername, $dBUsername, $dBPassword, $dBName);
 
 if (!$conn){
